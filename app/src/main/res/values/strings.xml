@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MartinN-ToDoApp</string>
+    <string name="tsk_titleText">Tasks</string>
+    <string name="tsk_placeholderText">New Task</string>
+    <string name="tsk_newTaskButtonText">Submit</string>
+
+    <string-array name="srt_options_array">
+        <item>None</item>
+        <item>Priority</item>
+        <item>Deadline</item>
+    </string-array>
+
+    <string-array name="pri_array">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+</resources>

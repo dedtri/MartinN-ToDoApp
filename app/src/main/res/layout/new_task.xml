@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/tsk_newTaskInput"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="@string/tsk_placeholderText"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Spinner
+        android:id="@+id/tsk_prioritySpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tsk_newTaskInput"
+        android:layout_alignBaseline="@id/tsk_newTaskInput"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <DatePicker
+        android:id="@+id/tsk_datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsk_prioritySpinner"
+        android:scaleY="0.8"
+        android:scaleX="0.8"/>
+
+    <Button
+        android:id="@+id/tsk_newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsk_datePicker"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="@string/tsk_newTaskButtonText"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>
