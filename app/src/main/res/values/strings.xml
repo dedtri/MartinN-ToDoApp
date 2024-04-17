@@ -3,6 +3,7 @@
     <string name="tsk_titleText">Tasks</string>
     <string name="tsk_placeholderText">New Task</string>
     <string name="tsk_newTaskButtonText">Submit</string>
+    <string name="tsk_sortByButtonText">Sort by : </string>
 
     <string-array name="srt_options_array">
         <item>None</item>
